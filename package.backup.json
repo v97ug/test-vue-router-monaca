@@ -8,8 +8,7 @@
         "lint": "vue-cli-service lint",
         "monaca:preview": "vue-cli-service serve & vue-cli-service build --dest www --no-clean --watch",
         "monaca:transpile": "vue-cli-service build --dest www --no-clean",
-        "monaca:debug": "vue-cli-service build --dest www --no-clean --watch",
-        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+        "monaca:debug": "vue-cli-service build --dest www --no-clean --watch"
     },
     "dependencies": {
         "core-js": "^2.6.5",
